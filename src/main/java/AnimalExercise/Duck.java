@@ -5,4 +5,8 @@ public class Duck extends Animal {
     public String speak() {
         return "Quack";
     }
+
+    public Duck(String backpack) {
+        super(backpack);
+    }
 }

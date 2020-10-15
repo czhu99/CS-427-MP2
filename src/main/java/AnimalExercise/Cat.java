@@ -5,4 +5,8 @@ public class Cat extends Animal{
     public String speak() {
         return "Meow";
     }
+
+    public Cat(String backpack) {
+        super(backpack);
+    }
 }
